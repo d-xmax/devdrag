@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap/scss/navbar';
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Jost', sans-serif;
+  width: 100%;
+}
+.nav-block {
+  display: grid;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  margin-inline: auto;
+  height: 8dvh;
+  top: 2%;
+}
+nav {
+  display: flex;
+  border-radius: 35px;
+  width: 60vw;
+  z-index: 20;
+  justify-content: space-around;
+}
+.close {
+  display: none;
+}
+.active {
+  display: block;
+}
+.logo-main {
+  font-size: 30px;
+}
+.nav-bar {
+  margin-bottom: 0;
+  display: flex;
+  height: 100%;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.nav-bar li a {
+  display: inline;
+  text-decoration: none;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  justify-content: center;
+}
+.socials {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 16px;
+}
+.socials li a i {
+  text-decoration: none;
+  color: #ffff;
+  color: black;
+  background-color: #fff;
+  border: 0;
+}
+.socials li a i:hover {
+  color: #fff;
+  background-color: #e9168c;
+}
+.main {
+  height: 100vh;
+}
+.dd-section-hero {
+  position: relative;
+  padding-inline: 35px;
+  margin: 0;
+  background-color: black;
+}
+.dd-hero-area > div {
+  min-height: 100vh;
+}
+.video {
+  position: absolute;
+  height: 100vh;
+  object-fit: cover;
+  left: 0;
+  top: 0;
+}
+.text {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+.scroll-btn {
+  position: absolute;
+  bottom: 10%;
+  inset: 80% 10%;
+}
+.down-btn {
+  font-size: 3.5rem;
+  border: 0;
+  border-radius: 50%;
+  color: #fff;
+}
+.animated-titles > h2 {
+  margin: 0;
+  line-height: 0;
+}
+.dark {
+}
+.dd-section-about {
+  min-height: 100vh;
+}
+.about-main {
+  color: #777777;
+  font-size: clamp(18px, 3vw, 29px);
+}
+.about-secondary {
+  height: 100%;
+}
+.value {
+  color: #e9168c;
+}
+.title {
+  color: #777777;
+}
+.card {
+  box-shadow: 0 0 10px 2px rgb(29, 29, 29);
+}
+.card-head {
+  color: #fff;
+}
+.card-body {
+  color: #777777;
+  font-size: 18px;
+}
+.dd-section-services {
+  min-height: 100vh;
+}
+.services-main {
+  color: white;
+}
+.dd-section-portfolio {
+  min-height: 100vh;
+}
+.portfolio-wraper {
+  overflow-x: none;
+  display: flex;
+}
+.portfolio-img {
+  aspect-ratio: 1/1;
+}
