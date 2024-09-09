@@ -9,12 +9,13 @@ toggle.addEventListener('click', function () {
   ham.classList.toggle('close'),
     close.classList.toggle('active');
 });
-const lenis = new Lenis();
-function raf(time) {
-  lenis.raf(time), requestAnimationFrame(raf);
-}
-lenis.on('scroll', () => {}),
-  requestAnimationFrame(raf);
+// const lenis = new Lenis();
+// function raf(time) {
+//   lenis.raf(time), requestAnimationFrame(raf);
+// }
+// lenis.on('scroll', () => {}),
+//   requestAnimationFrame(raf);
+
 const content =
     document.getElementById('content-1'),
   tabs = document.querySelectorAll('.tab');
